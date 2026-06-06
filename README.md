@@ -33,16 +33,6 @@ MolniaBrowser/
 └── build.gradle
 ```
 
-## Как открыть и собрать
-
-1. **Открой в Android Studio** (Electric Eel 2022.1.1 или новее)
-2. **Sync Gradle** (File → Sync Project with Gradle Files)
-3. Подключи Android TV / TV Box через ADB:
-   ```
-   adb connect <IP-адрес>:5555
-   ```
-4. Выбери устройство в Run Configuration → **Run 'app'**
-
 ## Требования
 
 - Android 10+ (API 29)
